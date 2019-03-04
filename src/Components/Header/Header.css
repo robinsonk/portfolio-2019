@@ -1,0 +1,93 @@
+.logo {
+    left: 0;
+    margin-top: 30px;
+    width: 50px;
+    margin-left: 100px;
+}
+  
+header {
+    background-color: #40434E;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+  
+.hero {
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.hero-header {
+    font-size: 50px;
+    font-family: 'Domine', serif;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+  
+.hero-sub {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    font-weight: normal;
+}
+  
+.me {
+    display: block;
+    width: 200px;
+    border-radius: 80%;
+    background-color: white;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .hero {
+        box-sizing: border-box;
+        color: white;
+        width: auto%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        height: 620px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: auto;
+    }
+
+    .logo {
+        left: 0;
+        margin-top: 30px;
+        width: 50px;
+        margin-left: 50px;
+    }
+
+    header {
+        background-color: #40434E;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .hero-header {
+        font-size: 30px;
+        font-family: 'Domine', serif;
+        font-weight: normal;
+        margin-bottom: 25px;
+    }
+
+    .hero-sub {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        width: 80%;
+        font-weight: normal;
+    }
+   
+}

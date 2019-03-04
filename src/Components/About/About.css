@@ -1,0 +1,130 @@
+.about-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+    padding-bottom: 140px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    border: 1px solid #40434E;
+    border-radius: 15px 15px 0 0;
+    border-bottom: none;
+    z-index: 1;
+    background-color: white;
+}
+
+.about-header {
+    color: #277E96;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Domine', serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.about-content {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.tldr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #277E96;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal; 
+    width: 60%;
+}
+
+.span {
+    align-self: right;
+}
+
+@media screen and (max-width: 1100px) {
+    .about-container {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }  
+    
+    .about-header {
+        color: #277E96;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Domine', serif;
+        font-weight: normal;
+        margin-bottom: 10px;
+        width: 85%;
+    }
+
+    .about-content {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        width: 70%;
+        font-weight: normal;
+        text-align: justify;
+    }
+
+    .tldr {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .span {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-container {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }  
+    
+    .about-header {
+        color: #277E96;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Domine', serif;
+        font-weight: normal;
+        margin-bottom: 10px;
+        width: 85%;
+    }
+
+    .about-content {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        width: 90%;
+        font-weight: normal;
+        text-align: justify;
+    }
+
+    .tldr {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .span {
+        margin-top: 15px;
+    }
+}
+
