@@ -8,6 +8,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 8px rgba(45, 45, 49, 0.466);
+  background-color: #40434E;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #962746; 
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

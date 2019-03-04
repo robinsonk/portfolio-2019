@@ -14,8 +14,164 @@
     background-color: white;
 }
 
+.projects-content {
+    margin-bottom: 80px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-row {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-section {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    align-self: right;
+}
+
+.project-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 0;
+}
+
+.overlay {
+    box-sizing: border-box;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .9s ease;
+    background-color: #277E96;
+    text-align: left;
+    overflow: auto;
+}
+
+.overlay-content {
+    position: relative;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 300;
+    color: white;
+}
+
+.overlay h2 {
+    font-weight: normal;
+    color: white;
+    font-weight: bold;
+}
+
+.overlay a {
+    display: block;
+    text-decoration: none;
+    width: max-content;
+    margin-lefT: auto;
+    margin-right: auto;
+}
+
+
+.folio-button {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    border: 4px solid #40434E;
+}
+
+.folio-button:hover {
+    transition: .7s ease;
+    background-color: #40434E;
+    color: white;
+}
+
+.photo-section:hover .overlay:hover {
+    opacity: 1;
+}
+
+.project-title {
+    font-family: 'Domine', serif;
+    color: #277E96;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.overlay::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 8px rgba(45, 45, 49, 0.466);
+    background-color: #40434E;
+}
+  
+.overlay::-webkit-scrollbar {
+    width: 15px;
+    background-color: #F5F5F5;
+}
+  
+.overlay::-webkit-scrollbar-thumb {
+    background-color: #962746; 
+}
+  
+
 @media screen and (max-width: 1100px) {
     .projects-container {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .projects-container {
         width: 90%
+    }
+
+    .project-row {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 0px solid #40434E;
+    }
+
+    .project-photo {
+        width: 100%;
+        height: 330px;
+        object-fit: cover;
+        object-position: 0% 0;
+    }
+
+    .photo-section {
+        width: 100%;
+        height: 100%;
+        align-self: right;
+        align-content: center;
     }
 }

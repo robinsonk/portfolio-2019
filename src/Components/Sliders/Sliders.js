@@ -9,32 +9,32 @@ class Sliders extends Component {
                 {
                     tech: 'JavaScript',
                     progress: { height: '100%', width: '100%'},
-                    extras: 'vanilla | jQuery',
-                },
-                {
-                    tech: 'React',
-                    progress: { height: '100%', width: '99%'},
-                    extras: 'Context | Router DOM',
+                    extras: 'vanilla - jQuery',
                 },
                 {
                     tech: 'Responsive Design',
                     progress: { height: '100%', width: '98%'},
-                    extras: 'HTML | CSS',
+                    extras: 'HTML - CSS',
+                },
+                {
+                    tech: 'React',
+                    progress: { height: '100%', width: '99%'},
+                    extras: 'Context API',
                 },
                 {
                     tech: 'Adobe Suite',
                     progress: { height: '100%', width: '90%'},
-                    extras: 'XD | Photoshop | Illustrator',
+                    extras: 'XD - PS - IL',
                 },
                 {
-                    tech: 'Node',
+                    tech: 'Node ( learning )',
                     progress: { height: '100%', width: '30%'},
-                    extras: 'Express | NPM (in progress)',
+                    extras: 'Express - NPM',
                 },
                 {
-                    tech: 'Database',
+                    tech: 'Database (learning)',
                     progress: { height: '100%', width: '20%'},
-                    extras: 'MongoDB | SQL (in progress)',
+                    extras: 'MongoDB - SQL',
                 },
             ]
         };
