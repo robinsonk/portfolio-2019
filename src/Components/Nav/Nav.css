@@ -23,6 +23,7 @@
     font-size: 20px;
     margin-bottom: 10px;
     list-style: none;
+    cursor: pointer;
 }
 
 .nav-link-active {
@@ -67,7 +68,6 @@
 
     .nav-link {
         font-size: 18px;
-        cursor: pointer;
     }
 
     .nav-link-active {

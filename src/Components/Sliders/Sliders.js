@@ -62,7 +62,7 @@ class Sliders extends Component {
                 })}
                 </div>
                 <p className="slider-content">
-                    In addition to dev skills, I also have a strong background in content writing and copywriting. 
+                    In addition to dev skills, I also have a strong background in <span className="highlight1">content writing</span> and copywriting. 
                 </p>
             </div>
         )

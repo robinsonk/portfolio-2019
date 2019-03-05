@@ -53,7 +53,7 @@ class Nav extends Component {
                                 spy={true}
                                 to="contact"
                                 smooth="true"
-                                offset={-200}
+                                offset={30}
                             >
                                 Contact
                             </Link>

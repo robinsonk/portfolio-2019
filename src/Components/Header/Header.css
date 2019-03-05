@@ -52,6 +52,11 @@ header {
     font-weight: 500;
 }
 
+.highlight3 {
+    color: #277E96;
+    font-weight: 500;
+}
+
 @media screen and (max-width: 500px) {
     .hero {
         box-sizing: border-box;
@@ -59,38 +64,26 @@ header {
         width: auto;
         margin-left: 10px;
         margin-right: 10px;
-        margin-top: 50px;
         height: 620px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
         width: auto;
     }
 
     .logo {
-        left: 0;
         padding-top: 50px;
-        width: 50px;
         margin-left: 50px;
     }
 
     header {
-        background-color: #40434E;
         margin-left: 0px;
         margin-right: 0px;
     }
 
     .hero-header {
         font-size: 30px;
-        font-family: 'Domine', serif;
-        font-weight: normal;
-        margin-bottom: 25px;
+        font-family: 'Playfair Display', serif;
     }
 
     .hero-sub {
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
         width: 80%;
         font-weight: normal;
     }
