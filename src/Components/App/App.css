@@ -13,7 +13,12 @@ ruby - #962746
 body {
   box-sizing: border-box;
   background-color: #40434e; 
+  width: 100%;
 }
+
+/* main {
+  width: 100%;
+} */
 
 .App {
   box-sizing: border-box;

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import {  faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import Nav from '../Nav/Nav'
 import Header from '../Header/Header'
 import About from '../About/About'
@@ -33,4 +36,5 @@ class App extends Component {
   }
 }
 
+library.add(fab, faEnvelope);
 export default App;

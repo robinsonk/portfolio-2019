@@ -38,7 +38,9 @@ class Projects extends Component {
         return (
             <div className="projects-container">
                 <h2 className="projects-header">Selected Projects</h2>
-                <p className="projects-content">Lorem ipsum solor sit amet consectetur adiposcing elit.</p>
+                <p className="projects-content">
+                    Feel free to check out some of my recent projects below. Hover over a photo to learn more.
+                </p>
                 <div className="projects">
                     {this.state.projects.map(project => {
                         return (

@@ -11,7 +11,8 @@ class Nav extends Component {
                         <li>
                             <Link
                                 className="nav-link"
-                                activeClassName="nav-link-active"
+                                activeClass="nav-link-active"
+                                spy={true}
                                 to="about"
                                 smooth="true"
                                 offset={-70}
@@ -22,7 +23,8 @@ class Nav extends Component {
                         <li>
                             <Link
                                 className="nav-link"
-                                activeClassName="nav-link-active"
+                                activeClass="nav-link-active"
+                                spy={true}
                                 to="skills"
                                 smooth="true"
                                 offset={0}
@@ -34,7 +36,8 @@ class Nav extends Component {
                         <li>
                             <Link
                                 className="nav-link"
-                                activeClassName="nav-link-active"
+                                activeClass="nav-link-active"
+                                spy={true}
                                 to="projects"
                                 smooth="true"
                                 offset={-200}
@@ -46,10 +49,11 @@ class Nav extends Component {
                         <li>
                             <Link
                                 className="nav-link"
-                                activeClassName="nav-link-active"
+                                activeClass="nav-link-active"
+                                spy={true}
                                 to="contact"
                                 smooth="true"
-                                offset={-70}
+                                offset={-200}
                             >
                                 Contact
                             </Link>

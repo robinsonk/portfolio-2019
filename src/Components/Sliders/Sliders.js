@@ -41,9 +41,13 @@ class Sliders extends Component {
     }
     render() {
         return (
-            <div className="slider-container">
+            <div className="slider-container" id="skills">
                 <h2 className="slider-header">Tech I Love to Work With</h2>
-                <p className="slider-content">Lorem ipsum dolor sit amet, usu ad invidunt elaboraret. Suas vitae oratio mei at, est et fierent euripidis deseruisse, eu ullum principes cum.</p>
+                <p className="slider-content">
+                    My process begins at the <span className="highlight1">design phase</span>. From pen and paper to prototypes to code, I do it all.<br/><br />
+                    While I primarily work in front-end, I'm currently expanding my skills to include <span className="highlight1">fullstack development</span> (MERN stack).<br /><br />
+                    My (dev) weapons of choice are listed below:   
+                </p>
                 <div className="sizing"> 
                 {this.state.sliders.map(slider => {
                     return (
@@ -57,6 +61,9 @@ class Sliders extends Component {
                     )
                 })}
                 </div>
+                <p className="slider-content">
+                    In addition to dev skills, I also have a strong background in content writing and copywriting. 
+                </p>
             </div>
         )
     }

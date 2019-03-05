@@ -25,7 +25,7 @@ header {
   
 .hero-header {
     font-size: 50px;
-    font-family: 'Domine', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
     margin-bottom: 25px;
 }
@@ -48,6 +48,7 @@ header {
 }
 
 .highlight1, .highlight2 {
+    color: #F9EA9D;
     font-weight: 500;
 }
 
@@ -69,7 +70,7 @@ header {
 
     .logo {
         left: 0;
-        margin-top: 30px;
+        padding-top: 50px;
         width: 50px;
         margin-left: 50px;
     }
