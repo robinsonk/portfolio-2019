@@ -8,7 +8,7 @@ class Projects extends Component {
             projects: [
                 {
                     name: 'JOT.',
-                    blurb: 'A fully-responsive front-end note app made with React/Router/Context API.',
+                    blurb: 'A fully-responsive front-end note app.',
                     tech: 'React (Router DOM, Context API) & CSS',
                     live: 'https://wonderful-jepsen-6a6204.netlify.com/',
                     code: 'https://github.com/robinsonk/jot-app',
