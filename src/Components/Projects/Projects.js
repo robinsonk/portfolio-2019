@@ -10,7 +10,7 @@ class Projects extends Component {
                     name: 'JOT.',
                     blurb: 'A fully-responsive front-end note app.',
                     tech: 'React (Router DOM, Context API) & CSS',
-                    live: 'https://wonderful-jepsen-6a6204.netlify.com/',
+                    live: 'https://jot-noteapp.netlify.com/',
                     code: 'https://github.com/robinsonk/jot-app',
                     screenshot: 'jot_all_notes.png',
                 },
