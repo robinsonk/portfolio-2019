@@ -15,6 +15,14 @@ class Projects extends Component {
                     screenshot: 'jot_all_notes.png',
                 },
                 {
+                    name: 'Book Search',
+                    blurb: 'Book Search is a simple front-end app showcasing calls to the Google Books API',
+                    tech: 'React, Google Books API, & CSS',
+                    live: 'https://search-books-app.netlify.com/',
+                    code: 'https://github.com/robinsonk/search-books',
+                    screenshot: 'book-search-web.png',
+                },
+                {
                     name: 'ReadView',
                     blurb: 'ReadView aims to deliver book reviews, specifically in video format, to the user.',
                     tech: 'JavaScript (jQuery), Google Books API, YouTube API, HTML, & CSS',
