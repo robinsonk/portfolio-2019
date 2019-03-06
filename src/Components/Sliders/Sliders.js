@@ -9,32 +9,32 @@ class Sliders extends Component {
                 {
                     tech: 'JavaScript',
                     progress: { height: '100%', width: '100%'},
-                    extras: 'vanilla - jQuery',
+                    extras: 'jQuery, vanilla',
                 },
                 {
                     tech: 'Responsive Design',
                     progress: { height: '100%', width: '98%'},
-                    extras: 'HTML - CSS',
+                    extras: 'HTML, CSS',
                 },
                 {
                     tech: 'React',
-                    progress: { height: '100%', width: '99%'},
+                    progress: { height: '100%', width: '96%'},
                     extras: 'Context API',
                 },
                 {
-                    tech: 'Adobe Suite',
+                    tech: 'Prototyping & Design',
                     progress: { height: '100%', width: '90%'},
-                    extras: 'XD - PS - IL',
+                    extras: 'Adobe: XD, PS, IL',
                 },
                 {
-                    tech: 'Node ( learning )',
-                    progress: { height: '100%', width: '30%'},
-                    extras: 'Express - NPM',
+                    tech: 'Testing',
+                    progress: { height: '100%', width: '85%'},
+                    extras: 'Mocha, Chai, Jest',
                 },
                 {
-                    tech: 'Database (learning)',
-                    progress: { height: '100%', width: '20%'},
-                    extras: 'MongoDB - SQL',
+                    tech: 'Node & Database',
+                    progress: { height: '100%', width: '40%'},
+                    extras: 'Express, MongoDB, SQL, NPM',
                 },
             ]
         };
@@ -45,7 +45,7 @@ class Sliders extends Component {
                 <h2 className="slider-header">Tech I Love to Work With</h2>
                 <p className="slider-content">
                     My process begins at the <span className="highlight1">design phase</span>. From pen and paper to prototypes to code, I do it all.<br/><br />
-                    While I primarily work in front-end, I'm currently expanding my skills to include <span className="highlight1">fullstack development</span> (MERN stack).<br /><br />
+                    While I primarily work in front-end, I'm fully skilled in <span className="highlight1">fullstack development</span> (MERN stack).<br /><br />
                     My (dev) weapons of choice are listed below:   
                 </p>
                 <div className="sizing"> 

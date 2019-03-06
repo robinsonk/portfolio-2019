@@ -7,7 +7,7 @@ class About extends Component {
             <div className="about-container" id="about">
                 <h2 className="about-header">I'm Kileen and I have a lot to say</h2>
                 <p className="about-content">
-                    I'm a <span className="highlight3">passionate developer</span> who loves spending hours writing clean functions, chosing fonts, and sketching ideas on paper before bringing them to life. <br /><br />
+                    I'm a <span className="highlight3">passionate developer</span> who loves spending hours writing clean functions, choosing fonts, and sketching ideas on paper before bringing them to life. <br /><br />
                     With a background in content writing and graphic design, I bring a <span className="highlight3">well-rounded skillset</span> to my work, along with the ability to effectively communicate with different roles throughout the development process. 
                 </p>
                     <h3 className="about-header2">What it's like to work with me</h3>

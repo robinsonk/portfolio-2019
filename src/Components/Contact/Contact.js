@@ -50,7 +50,7 @@ class Contact extends Component {
                 <div className="contact-icons">
                     {this.state.links.map(link => {
                         return (
-                            <a href={link.link}>
+                            <a href={link.link} title={link.name}>
                                 <FontAwesomeIcon icon={link.icon} className={link.class}/>
                             </a>
                         )
