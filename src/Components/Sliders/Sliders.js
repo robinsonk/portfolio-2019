@@ -34,7 +34,7 @@ class Sliders extends Component {
                 {
                     tech: 'Node & Database',
                     progress: { height: '100%', width: '40%'},
-                    extras: 'Express, MongoDB, SQL, NPM',
+                    extras: 'Express, PostgreSQL, NPM',
                 },
             ]
         };
@@ -45,7 +45,7 @@ class Sliders extends Component {
                 <h2 className="slider-header">Tech I Love to Work With</h2>
                 <p className="slider-content">
                     My process begins at the <span className="highlight1">design phase</span>. From pen and paper to prototypes to code, I do it all.<br/><br />
-                    While I primarily work in front-end, I'm fully skilled in <span className="highlight1">fullstack development</span> (MERN stack).<br /><br />
+                    While I primarily work in front-end, I'm fully skilled in <span className="highlight1">fullstack development</span> (PERN stack).<br /><br />
                     My (dev) weapons of choice are listed below:   
                 </p>
                 <div className="sizing"> 
